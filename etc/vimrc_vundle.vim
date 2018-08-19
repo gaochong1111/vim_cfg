@@ -2,7 +2,6 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-" rtp+=bundle_path include .git
 set rtp+=$VIM/vimfiles/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
@@ -25,10 +24,18 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-surround'
+" vim-git diff
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'wesleyche/SrcExpl'
 Plugin 'altercation/vim-colors-solarized'
+" vim-markdown highlight
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+" markdown preview
+Plugin 'iamcco/mathjax-support-for-mkdp'
+Plugin 'iamcco/markdown-preview.vim'
+
 
 
 " git repos on your local machine (i.e. when working on your own plugin)
