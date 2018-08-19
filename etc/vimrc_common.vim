@@ -16,6 +16,9 @@ set helplang=cn		"设置中文帮助
 set history=500		"保留历史记录
 set guifont=Consolas:h14:cANSI	"设置字体为Consolas，大小14
 
+winpos 10 10 " 窗口位置
+set lines=35 columns=80 " 设置初始界面大小
+
 set tabstop=4		"设置tab的跳数
 set expandtab
 set backspace=2 	"设置退格键可用
@@ -49,7 +52,7 @@ set incsearch "增量查找
 "===========================
 "状态栏的设置
 "===========================
-" set statusline=[%F]%y%r%m%*%=[Line:%l/%L,Column:%c][%p%%] "显示文件名：总行数，总的字符数
+set statusline=[%F]%y%r%m%*%=[Line:%l/%L,Column:%c][%p%%] "显示文件名：总行数，总的字符数
 " set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 set ruler "在编辑过程中，在右下角显示光标位置的状态行
  
