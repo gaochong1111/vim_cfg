@@ -1,10 +1,10 @@
 " $VIMRUNTIME=gvim/vim{$VERSION}
 " $VIM=gvim/vimfiles
 source $VIMRUNTIME/vimrc_example.vim
-source $VIM/vimrc_common.vim
-source $VIM/vimrc_vundle.vim
+source $VIM/etc/vimrc_common.vim
+source $VIM/etc/vimrc_vundle.vim
 " Plugin Configuration
-source $VIM/vimrc_nerdtree.vim
+source $VIM/etc/vimrc_nerdtree.vim
 
 " source $VIMRUNTIME/delmenu.vim
 " source $VIMRUNTIME/menu.vim
